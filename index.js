@@ -3,7 +3,7 @@
 const greet = require('./lib/greet.js');
 const math = require('./lib/arithmetic.js');
 
-let myArray = [1, 2, 3, 4];
+let myArray = [1, 0];
 
 console.log(greet.sayHello('JOHN'));
 console.log(math.add(myArray)); // 10
