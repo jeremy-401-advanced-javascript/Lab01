@@ -5,7 +5,7 @@ const faker = require('faker');
 
 describe('greet module', () => {
   it('greets a person', () => {
-    let myWord = faker.random.number();
+    let myWord = faker.random.word();
     let expected = `Hi, ${myWord}`;
     // let greeting = greet.sayHello(myWord);
     expect(greet.sayHello(myWord)).toEqual(expected);
